@@ -1,4 +1,4 @@
-# printing rightangle shape with .
+# printing rightangle shape with *
 for i in range(1,7):
     for j in range(1,i+1):
         print("*",end=" ")
@@ -11,7 +11,7 @@ for row in range(0,8):
     print()
 
 
-# printing rightangle shape numbers with row wise printing
+# printing rightangle shape numbers with row wise printing while taking input from the user.
 n = int(input("enter the number of rows"))
 for i in range(0,n):
     for j in range(0,i):
